@@ -1,7 +1,7 @@
 # cue-demo
 Following example from https://luth.io/blog/2022/01/practical-cue-example/
 cd config 
- cue mod init github.com/krehermann/cue-demo/config
+cue mod init github.com/krehermann/cue-demo-mod/config
 go mod init github.com/krehermann/cue-demo
 go mod tidy
 cd config
@@ -20,6 +20,15 @@ cue.mod
 └── usr
 
 <Make file config/src/spec.cue>
+
+Notes for self:
+
+Originally did
+...
+cue mod init github.com/krehermann/cue-demo/config
+go mod init github.com/krehermann/cue-demo
+...
+
 
 And... Bang head against the wall for an hour with this error
 

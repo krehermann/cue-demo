@@ -1,1 +1,1 @@
-module: "github.com/krehermann/cue-demo/config"
+module: "github.com/krehermann/cue-demo-mod/config"
